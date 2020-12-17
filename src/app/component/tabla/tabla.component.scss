@@ -1,0 +1,156 @@
+.image-perfil{
+  border-radius:20px !important;
+  
+}
+.contenet-foro-end{
+  left: -50px !important;
+  top: 50px !important;
+  bottom: 30em !important;
+}
+
+.alert-copy-h{
+  position: fixed;
+  transition: 0.3s;
+  right: 0px;
+} 
+.alert-copy{
+  position: fixed;
+  transition: 0.3s;
+  right: -190px;
+} 
+
+    .no-copy {
+      user-select: none;
+    }
+    .no-copy::selection {
+      background: none;
+    }
+    .no-copy::-moz-selection {
+      background: none;
+    }
+.stye-form-field {
+  color : #7c7e83;
+}
+
+.stye-form-field .stye-mat-label{
+  color : #4e4f52;
+}
+
+.boton-icon {
+  outline: none !important;
+  border: none !important;
+}
+.boton-icon:active {
+  outline: none !important;
+  border: none !important;
+}
+
+table {
+    color : #ffffff;
+    background-color: #424242;
+    border: 1px solid rgba(37, 37, 37, 0);
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #212121;   
+    border: 1px solid #2e2c2c00;
+    padding: .35em;
+  
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  .text-aling-left{
+    text-align:left !important;
+  }
+  .text-aling-end{
+    text-align:right !important;
+  }
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .example-form-field {
+      width: 200px;
+    }
+    table {
+      border: 0;
+      
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 5px solid  #000830;
+      display: block;
+    }
+    
+    table td {
+      border-bottom: 2px solid #dce0ff;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+ 
+  
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-right: 0.5rem;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  
+  .normal {
+    width: 100%;
+  
+    margin-bottom: 10px;
+    text-align: justify !important;
+  }}
+  .hyphenation {
+    word-break: break-all;
+    /* Non standard for webkit */
+ //   word-break: break-word; 
+ 
+-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+   -ms-hyphens: auto;
+       hyphens: auto;
+}

@@ -1,0 +1,52 @@
+
+<div class="my-4 mx-0 px-0" >
+
+  <table class="table-responsive  mx-0 px-0">
+    <thead>
+      <tr>
+        <th scope="col" class="text-aling-left pl-4">FORO</th>
+        <th scope="col">	<mat-icon> chat_bubble</mat-icon></th>
+        <th scope="col"><mat-icon> forum</mat-icon></th>
+        <th scope="col" class="text-aling-end pr-4"><mat-icon>alarm_on</mat-icon></th>
+
+     </tr>
+    </thead>
+    <tbody class="no-copy  ">
+      <td data-label="Nombre:" class="row align-items-center  text-aling-left pl-4 my-1 normal hyphenation">
+        <img class="col-4" src="https://www.flaticon.es/svg/static/icons/svg/189/189664.svg" style="">
+        <div class="col px-0">
+          <div class="px-0 col-12 mb-2" style="font-size: 17px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Información RolPlay</div>
+          <div class="px-0 col-12 mt-2" style="font-size: 15px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >Reglas generales, policias..</div>
+        </div>
+        
+      </td>
+        <td data-label="Email:" > 4</td>
+        <td data-label="Asunto:" > 3</td>
+        <td data-label="Mensaje:"class="text-aling-end " >    
+          <div class="row align-items-center justify-content-end pr-2">
+            <div class=" px-1 ">
+              <div class="px-0 col-12 pb-1" style="font-size: 17px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(255, 0, 0);"> ! Lil Peluchin</div>
+              <div class="px-0 col-12 pt-1" style="font-size: 15px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >13/12/2020</div>
+            </div>
+            <img class="image-perfil  " 
+            style="  width:40px; height:40px;"
+            src="https://cdn.discordapp.com/avatars/466723213724876801/a_bd1a7a650de3af1ff2ff54cdf2426f80.gif" >
+          </div> 
+         
+          
+
+
+           
+   
+        </td>
+       
+      <tr *ngFor="let res of contacts">
+        <td data-label="Nombre:" >{{res.name}}</td>
+        <td data-label="Email:" > {{res.email}}</td>
+        <td data-label="Asunto:" > {{res.subject}}</td>
+        <td data-label="Mensaje:" class="normal hyphenation">{{res.message}}</td>
+       
+      </tr>
+    </tbody>
+   </table>
+</div>
